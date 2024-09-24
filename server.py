@@ -5,7 +5,7 @@ from email.message import EmailMessage
 from string import Template
 from pathlib import Path
 app = Flask(__name__)
-
+application = app
 @app.route("/")
 def my_home():
     return render_template('index.html')
@@ -30,7 +30,7 @@ def html_page(page_name):
 #         csv_writer.writerow([email,name,comments])
 
 def email_sender(data) :
-    html = Template(Path('./templates/sender.html').read_text())
+    html = Template(Path('/sender.html').read_text())
     email = EmailMessage()
     email['From'] = 'server'
     email['To'] = 'erfanshadkam@outlook.com'

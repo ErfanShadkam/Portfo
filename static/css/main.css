@@ -968,7 +968,7 @@ ul.portfolioContainer li:hover span.hoverBox .linKed{
 
 
 .contactInfo{
-	background:#101010 url(../images/contact-bg.jpg) repeat 0 0 fixed;
+	background:#101010 url(./static/images/contact-bg.jpg) repeat 0 0 fixed;
 	text-align:center;
 	padding:94px 0 35px;
 	position:relative;

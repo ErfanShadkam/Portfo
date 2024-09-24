@@ -30,7 +30,7 @@ def html_page(page_name):
 #         csv_writer.writerow([email,name,comments])
 
 def email_sender(data) :
-    html = Template(Path('/sender.html').read_text())
+    html = Template(Path('sender.html').read_text())
     email = EmailMessage()
     email['From'] = 'server'
     email['To'] = 'erfanshadkam@outlook.com'
@@ -63,4 +63,4 @@ def submit_form():
 
 
 
-# app.run()
+app.run()

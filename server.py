@@ -30,7 +30,7 @@ def html_page(page_name):
 #         csv_writer.writerow([email,name,comments])
 
 def email_sender(data) :
-    html = Template(Path('sender.html').read_text())
+    # html = Template(Path('sender.html').read_text())
     email = EmailMessage()
     email['From'] = 'server'
     email['To'] = 'erfanshadkam@outlook.com'
@@ -38,7 +38,7 @@ def email_sender(data) :
     email1 = data['email']
     name = data['name']
     comments1 = data['comments']
-    email.set_content(html.substitute({'name': email1 , 'email': name, 'comment': comments1}), 'html')
+    email.set_content(f'Name : {name}\n Email: {email1}\n Comments:{comments1}')
 
     with smtplib.SMTP(host='smtp.gmail.com', port=587) as smtp:
         smtp.ehlo()
@@ -63,4 +63,4 @@ def submit_form():
 
 
 
-app.run()
+# app.run()

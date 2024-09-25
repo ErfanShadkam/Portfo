@@ -465,6 +465,10 @@ header{
 /*----------------------------------------------------
 	5. Skill & Expert Style
 ------------------------------------------------------*/
+.col-md-6.col-sm-12 {
+  margin: 0 auto;
+  float: none;
+}
 .skillset {
 	background:#f8f8f8;
 	display:table;

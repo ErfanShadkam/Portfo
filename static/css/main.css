@@ -1025,28 +1025,59 @@ ul.portfolioContainer li:hover span.hoverBox .linKed{
 /*----------------------------------------------------
 	 10. Footer Style
 ------------------------------------------------------*/
-.github-image {
+/*.footer1{*/
+/*	background:#f8f8f8;*/
+/*}*/
+/*.footer1 .container1{*/
+/*	padding:84px 0 0;*/
+/*}*/
 
-    text-align: center;
-    /*background:#bebabe;*/
-    color: #ffffff;
-    line-height: 55px;
-    margin: 0 auto;
-    width: 55px !important;
-    height: 55px !important;
+.footer1 ul{
+	margin:0 auto;
+	margin-bottom:62px;
+	text-align:center;
+	list-style-type:none;
+}
+.footer1 ul li{
+	display:inline-block;
+	text-align:center;
+	background:#bebabe;
+	color:#ffffff;
+	line-height:55px;
+	margin:0 17px 14px;
+	width:55px !important;
+	height:55px !important;
 
-    -webkit-border-radius: 50%;
+	-webkit-border-radius: 50%;
     border-radius: 50%;
-	display: flex;
-    justify-content: center;
-    align-items: center;
+}
+.footer1 ul li:hover{
+	background:#1d1d1d ;
 }
 
-.github-image a {
-    margin: 0 auto;
-    margin-bottom: 62px;
-    text-align: center;
-    list-style-type: none;
+.footer1 ul li:hover	a{
+	color:#fff;
+}
+
+.footer1 ul li a{
+	color:#fff;
+	width:42px !important;
+	height:42px !important;
+}
+.footer1 ul li a i{
+	line-height:55px !important;
+	color:#fff;
+}
+
+.footer1 p{
+	color:#8c9099;
+	font-size:15px;
+	line-height:24px;
+	font-weight:300;
+	text-align:center;
+}
+.footer1 p:last-child{
+	padding-bottom:0px;
 }
 .footer{
 	background:#f8f8f8;

@@ -899,6 +899,7 @@ ul.portfolioContainer li:hover span.hoverBox .linKed{
 	text-align:center;
 }
 
+
 .conForm input,
 .conForm textarea {
 	float:none;
@@ -1024,6 +1025,29 @@ ul.portfolioContainer li:hover span.hoverBox .linKed{
 /*----------------------------------------------------
 	 10. Footer Style
 ------------------------------------------------------*/
+.github-image {
+
+    text-align: center;
+    /*background:#bebabe;*/
+    color: #ffffff;
+    line-height: 55px;
+    margin: 0 auto;
+    width: 55px !important;
+    height: 55px !important;
+
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.github-image a {
+    margin: 0 auto;
+    margin-bottom: 62px;
+    text-align: center;
+    list-style-type: none;
+}
 .footer{
 	background:#f8f8f8;
 }
@@ -1053,6 +1077,7 @@ ul.portfolioContainer li:hover span.hoverBox .linKed{
 .footer ul li:hover{
 	background:#1d1d1d ;
 }
+
 .footer ul li:hover	a{
 	color:#fff;
 }
